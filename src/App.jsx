@@ -57,14 +57,10 @@ function App() {
                 style={{ fontSize: "1.5rem" }}
                 onClick={() => setMode(!mode)} />}</span>
           </div>
-
-          {/* 172842 */}
           <div className="mb-4">
-            {/* Todo form goes here */}
             <TodoForm />
           </div>
           <div className="flex flex-wrap gap-y-3">
-            {/*Loop and Add TodoItem here */}
             {todos.map((item) => (
               <div
                 key={item.id}
